@@ -28,7 +28,7 @@ var (
 	DefaultLiveReloadConfig = LiveReloadConfig{
 		Skipper: middleware.DefaultSkipper,
 		Name:    os.Args[0],
-		Dir:     "assets",
+		Dir:     "public",
 	}
 	upgrader = websocket.Upgrader{}
 )
